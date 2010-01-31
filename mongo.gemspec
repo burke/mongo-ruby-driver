@@ -1,9 +1,7 @@
-require "lib/mongo"
-
 Gem::Specification.new do |s|
   s.name = 'mongo'
 
-  s.version = Mongo::VERSION
+  s.version = "0.18.3p"
 
   s.platform = Gem::Platform::RUBY
   s.summary = 'Ruby driver for the MongoDB'
